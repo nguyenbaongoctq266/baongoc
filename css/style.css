@@ -1,0 +1,438 @@
+	body
+	{
+		font-family: 'Times New Roman', Times, serif;
+	}
+/*Đầu trang*/
+	.top top1 a img{
+		width:250px; 
+		height: 70px;
+	}
+	.timedate{
+		margin-top: 25px;
+		font-weight: bold;
+	}
+	.dangnhap{
+    margin-left: 30px;
+    
+	}
+	.dangnhap .dangnhap2{
+    	height: 32px;
+    	line-height: 32px;
+    	color: #4f4f4f;
+    	margin-left: 30px;
+	}
+	.dangnhap a:hover
+	{
+		text-decoration:none;
+				
+		color:#333c92;
+	}
+/*MENU*/
+
+	
+	.menu{
+		position: -webkit-sticky; 
+		position: sticky;
+		top: 0;
+		z-index: 1;
+		
+	}
+	.menu ul
+	{
+
+		background: #205e99;
+		width:100%;
+
+	}
+	.menu ul li
+	{
+
+		list-style:none;
+		float: left;
+		padding:10px;
+	}
+	.menu ul li a
+	{
+		text-decoration:none;
+		color:#fff;
+		font-size: 15px;
+		font-weight:bold;
+		text-transform: uppercase;
+		text-shadow: 5px 5px 15px#000;
+		
+	}
+	.menu ul li a:hover
+	{
+		text-decoration:none;
+				
+		color:white;
+	}
+	.menu ul li:hover
+	{
+		background: #333c92;
+	}
+	ul li{
+		position: relative;
+	}
+
+
+
+/*Tin tuc*/
+	
+	.tieude a h3{
+		font-size: 25px;
+		color: #333333
+		
+	}
+	.tieude a:hover{
+		text-decoration: none;
+	}
+	.tieude a h3:hover{
+		color:#059dd7;
+		padding:0px;
+		text-decoration: none;
+	}
+	.bgtext a
+	{
+		text-decoration:none;
+		
+	}
+	.bgtext table{
+        width: 100%;
+        height: 360px;
+	}
+	.bgtext a:hover{
+		text-decoration:none;
+	}
+	.bgtext:hover
+	{
+    	border:2px solid #CCCCCC;
+		color:#059dd7;
+		padding:0px;
+	}
+	.box2 a
+	{
+		text-decoration:none;
+	}
+	
+	.bgtext{
+		
+		box-shadow: 1px 1px 10px rgb(221, 201, 201);
+	}
+	.box2{
+		
+		box-shadow: 1px 1px 10px rgb(221, 201, 201);
+	}
+	.box2 img{
+        height: 130px;
+        width: 100%;
+	}
+	.box2 h1
+	{
+		color:#333333;
+		font-size:14px;
+		text-align:justify;
+		margin-top:10px;
+		font-weight: bold;
+		
+	}
+	.box2 h1:hover{
+		color:#059dd7;
+		padding:0px;
+		text-decoration: none;
+	}
+	.box2 a:hover{
+		text-decoration: none;
+	}
+	.box1 a img{
+		width: 95%;
+		height: 100;
+	}
+	.box1 h4{
+		color:#333333;
+		font-size:16px;
+		text-align:justify;
+		margin-top:10px;
+		font-weight: bold;
+	}
+	.box1 a:hover{
+		text-decoration: none;
+	}
+	.box1 h4:hover{
+		color:#059dd7;
+		text-decoration: none;
+	}
+	.box1 h5{
+		color:#333333;
+		font-size:14px;
+		text-align:justify;
+		margin-top:10px;
+		font-weight: normal;
+	}
+	.box1 h5:hover{
+		text-decoration: none;
+	}
+	
+/*Thanh cuộn*/
+	.scroll1{
+		border-left:1px solid #CCCCCC;
+		width:100%;
+		height:355px;
+		overflow-x:hidden;
+		overflow-y:auto;
+	}
+	.scroll1 a h2
+	{
+		color:#333333;
+		font-size:14px;
+		text-align:justify;
+		margin-top:5px;
+		font-weight: bold;
+		text-decoration:none;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.scroll1 a h2:hover
+	{
+		color:#059dd7;
+		padding:0px;
+		text-decoration: none;
+	}
+	.scroll1 a:hover{
+		text-decoration: none;
+	}
+	.scroll2{
+		border-left:1px solid #CCCCCC;
+		width:100%;
+		height:650px;
+		overflow-x:hidden;
+		overflow-y:auto;
+	}
+	.scroll2 a h2
+	{
+		color:#333333;
+		font-size:14px;
+		text-align:justify;
+		margin-top:5px;
+		font-weight: bold;
+		text-decoration:none;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.scroll2 a:hover{
+		text-decoration: none;
+	}
+	.scroll2 a h2:hover
+	{
+		color:#059dd7;
+		padding:0px;
+		text-decoration: none;
+	}
+	.scroll2 img{
+		width: 95%;
+		margin-right: 0px;
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+
+
+
+/*Thu phóng*/
+@media (max-width: 992px){
+	.top top1 a img{
+		width:200px; 
+		height: 50px;
+	}
+	.menu ul li a
+	{
+		font-size: 12px;
+	}
+	.bgtext table{
+		width: 100%;
+		height: 330px;
+	}
+	.box2 img{
+		height: 110px;
+		width: 100%;
+	}
+	.box2 h1
+	{
+		font-size:12px;
+	}
+	.tieude a h3{
+		font-size:19px;
+	}
+	.scroll1{		
+		width:100%;
+		height:360px;
+	}
+	.scroll1 a h2
+	{
+		font-size:12px;
+		margin-top:0px;
+	}
+
+	.box1 h4{	
+		font-size:12px;
+	}
+	.box1 h5{
+		font-size:12px;
+	}
+	.scroll2{
+		height:480px;
+
+	}
+	.scroll2 a h2
+	{
+		font-size:12px;
+
+	}
+
+}
+@media (max-width: 768px){	
+	.top top1 a img{
+		width:160px; 
+		height: 42px;
+	}
+	.menu ul li a
+	{
+		font-size: 11px;
+	}
+	.bgtext table{
+		width: 100%;
+		height: 300px;
+	}
+	.box2 img{
+		height: 90px;
+		width: 100%;
+	}
+	.box2 h1
+	{
+		font-size:11px;
+	}
+	.tieude a h3{
+		font-size:17px;
+	}
+	.scroll1{		
+		width:100%;
+		height:330px;
+	}
+	.scroll1 a h2
+	{
+		font-size:11px;
+		margin-top:0px;
+	}
+
+	.box1 h4{	
+		font-size:11px;
+	}
+	.box1 h5{
+		font-size:11px;
+	}
+	.scroll2{
+		height:440px;
+
+	}
+	.scroll2 a h2
+	{
+		font-size:11px;
+
+	}
+
+
+
+}
+@media (max-width: 576px){
+	.top top1 a img{
+		width:120px; 
+		height: 35px;
+	}
+	.menu ul li a
+	{
+		font-size: 10px;
+	}
+	.bgtext table{
+		width: 100%;
+		height: 270px;
+	}
+	.box2 img{
+		height: 75px;
+		width: 100%;
+	}
+	.box2 h1
+	{
+		font-size:10px;
+	}
+	.tieude a h3{
+		font-size:16px;
+	}
+	.scroll1{		
+		width:100%;
+		height:300px;
+	}
+	.scroll1 a h2
+	{
+		font-size:10px;
+		margin-top:0px;
+	}
+
+	.box1 h4{	
+		font-size:10px;
+	}
+	.box1 h5{
+		font-size:10px;
+	}
+	.scroll2{
+		height:400px;
+
+	}
+	.scroll2 a h2
+	{
+		font-size:10px;
+
+	}
+
+
+
+
+}
+	
+/*footer*/
+	
+	.fa-facebook {
+		color: #2e53a1;
+	}
+	.fa-instagram {
+		color: #517fa4;
+	}
+	.fa-youtube {
+		color: #ff0505;
+	}
+	.social a{
+		font-size: 2em;
+		padding: 1rem;
+	}
+	
+/*Tạo nút về đầu trang*/
+	#myBtn {
+		display: none;
+		position: fixed;
+		bottom: 20px;
+		right: 30px;
+		z-index: 99;
+		font-size: 18px;
+		border: none;
+		outline: none;
+		background-color: red;
+		color: white;
+		cursor: pointer;
+		padding: 15px;
+		border-radius: 4px;
+  	}
+  
+	#myBtn:hover {
+		background-color: #555;
+	}
+
+
+	
