@@ -46,6 +46,7 @@
 		<input id="tk1" type="submit" name="dk" value="Đăng kí" />
 	</form>
 	<?php
+	session_start();
 	include("dangnhap1.php");
 		if(isset($_POST["submit"])){
 			$name = mysqli_real_escape_string($conn,$_POST["taikhoan"]);
@@ -55,10 +56,15 @@
 			$query = mysqli_query($conn,$sql);
 			$num_row = mysqli_num_rows($query);
 			if($num_row != 0){
+				$_SESSION['name']=$name;
 				echo("đăng nhập thành công");
 			}
 			else{
 				echo("đăng nhập không thành công");
+			}
+			if($_SESSION['name']!=null)
+			{
+				header("location:trangchu.php");
 			}
 		}
 	?>
